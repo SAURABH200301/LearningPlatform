@@ -4,7 +4,7 @@ import { Services, Industries, Resources } from "../Data/data";
 
 function MainFooter() {
   return (
-    <div className="row">
+    <div className="row border w-100">
       <div className="col-md-4">
         <About />
       </div>

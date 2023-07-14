@@ -4,7 +4,7 @@ function About() {
   return (
     <>
         <div
-        className={`${classes.gradientBorder} ${classes.gradientColor1}`}
+        className={`${classes.gradientBorder}  ${classes.gradientColor1}`}
       ></div>
       <div className={`${classes.main} ${classes.footerTop}`}>
         <div className={classes.footerAbout}>

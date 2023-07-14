@@ -10,11 +10,11 @@ function App() {
   return (
     <div>
       <Navbar />
-      <div>
-        <section className="">
+      <div >
+        <section >
           <Hero />
         </section>
-        <section>
+        <section >
           <Services />
         </section>
         <section className={classes.techStack}>

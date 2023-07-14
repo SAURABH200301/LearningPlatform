@@ -5,7 +5,7 @@ export { Services} from "../Data/data";
 const Navbar = () => {
   return (
     <>
-      <div className="collapse" id="navbarToggleExternalContent">
+      <div className={`collapse `} id="navbarToggleExternalContent">
         <div className={`${classes.nav} p-4`}>
           <div className="row">
             <div className="col-md-3">
@@ -59,8 +59,8 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      <nav className={`${classes.navDiv} navbar navbar-dark `}>
-        <div className={`container-fluid ${classes.navContainer}`}>
+      <nav className={`${classes.navDiv}  navbar navbar-dark `}>
+        <div className={`container-fluid  ${classes.navContainer}`}>
           <button
             className={`navbar-toggler ${classes.icon}`}
             type="button"

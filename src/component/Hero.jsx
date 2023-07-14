@@ -3,8 +3,8 @@ import box from '../assets/box.gif'
 
 function Hero() {
   return (
-    <div className=" row ">
-      <div className="col-md-6">
+    <div className={` row  ${classes.main}`}>
+      <div className="col-md-6 col-sm-12">
         <div className={classes.heading}>
           <span style={{ color: "#bd1052" }}>Build, </span>
           <span style={{ color: "#545ffd" }}>test, </span>
@@ -14,8 +14,8 @@ function Hero() {
           <span style={{ color: "#f1ae50" }}>innovative solutions</span>
           <span style={{ color: "#545ffd" }}>.</span>
         </div>
-        <div className=" row">
-          <div className="col-md-6">
+        <div className={` row  ${classes.main}`}>
+          <div className="col-md-6 col-sm-12">
             <button className={`${classes.btn} ${classes.whatsApp}`}>
               <span className={classes.whatsAppIcon}></span>
               <span className={classes.Text}>Chat now on WhatsApp</span>
@@ -28,8 +28,8 @@ function Hero() {
           </div>
         </div>
       </div>
-      <div className="col-md-6  ">
-        <img className=" px-5 mx-3 " src={box} alt="box"/>
+      <div className="col-md-6 d-flex justify-content-center ">
+        <img className={`  ${classes.img}`} src={box} alt="box"/>
       </div>
     </div>
   );
