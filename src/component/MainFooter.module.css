@@ -1,0 +1,8 @@
+.gradientBorder{
+    height: 2px;
+    width: 100%;
+}
+
+.gradientColor1{
+    background-image: linear-gradient(100deg,#fb2576,#5e76fd 50%,#6df1af 110%);
+}
