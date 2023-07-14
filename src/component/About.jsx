@@ -8,9 +8,9 @@ function About() {
       ></div>
       <div className={`${classes.main} ${classes.footerTop}`}>
         <div className={classes.footerAbout}>
-          <h3>Xzect Labs Pvt. Ltd.</h3>
+          <h3>ABCD Labs Pvt. Ltd.</h3>
           <p className={classes.txtJustify}>
-            Xzect provides a diverse array of services that enable both
+            ABCD provides a diverse array of services that enable both
             businesses and individuals to bring their vision to life . Our
             specialties include software development, website design and SEO,
             cloud services, robotics and automation, 3D printing and
@@ -22,16 +22,15 @@ function About() {
           </p>
           <p>
             {" "}
-            <b>Registered Address </b>: 203, 2-A/3, Asaf Ali Road, Delhi -
-            110002
+            <b>Registered Address </b>: jankpuri, delhi
           </p>
           <p>
             {" "}
-            <b>CIN</b>: U72200DL2022PTC408714
+            <b>CIN</b>: UT121232328942*******
           </p>
           <p>
             {" "}
-            <b>GST</b>: 07AAACX4373J1Z2
+            <b>GST</b>: 07AHGU*********
           </p>
         </div>
       </div>
