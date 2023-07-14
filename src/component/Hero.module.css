@@ -1,0 +1,35 @@
+.heading{
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 5rem;
+}
+.btn{
+    margin: 1.25rem 1rem;
+    display: block;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 3px;
+    color: white;
+    width: 100%;
+}
+.whatsApp{
+    border: 2px solid #075e54;
+    background: #075e54;
+    transition: all .3s ease-in-out;
+}
+
+.whatsAppIcon{
+    background: url(../assets/whatsapp.png) no-repeat;
+    background-size: contain;
+    background-position: 50%;
+    padding: 1rem;
+    margin: 0.25rem 1rem 0.25rem 0;
+}
+.explore{
+    border: 2px solid #5e76fd;
+    background: #1d2233;
+    transition: all .3s ease-in-out;
+}
+.Text{
+    padding: 0.75rem 0;
+}

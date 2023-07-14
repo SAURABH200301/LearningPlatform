@@ -1,0 +1,47 @@
+.gradientBorder{
+    height: 2px;
+    width: 100%;
+}
+
+.gradientColor1{
+    background-image: linear-gradient(100deg,#fb2576,#5e76fd 50%,#6df1af 110%);
+}
+
+.main{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.footerTop{
+    padding: 1rem 1.5rem;
+}
+.footerAbout{
+    padding-right: 1rem;
+}
+
+.footerTop h3 {
+    font-size: 1.5rem;
+    margin: 2rem 0 0.5rem;
+}
+
+
+.footerAbout h3{
+    font-size: 1.75rem;
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.footerAbout p{
+    font-size: 1rem;
+    line-height: 1.75;
+    margin: 1.5rem 0;
+}
+.txtJustify {
+    text-align: justify;
+}

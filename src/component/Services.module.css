@@ -1,0 +1,38 @@
+.service{
+    color: white;
+    overflow: hidden;
+    padding: 1rem 0 3rem;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.serviceH2{
+    font-size: 2rem;
+    text-align: center;
+    padding: 0 1rem;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.sectionP {
+    font-size: 1.125rem;
+    text-align: center;
+    line-height: 1.75;
+    padding: 0 1rem;
+}
+.serviceList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

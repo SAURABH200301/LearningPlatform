@@ -1,0 +1,38 @@
+@media only screen and (min-width: 400px){
+.serviceCard {
+    width: auto;
+}}
+
+.img{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    height: 200px;
+}
+.serviceCard img{
+    border-radius: 10px;
+    width: 100%;
+    transition: all .3s ease-in-out;
+}   
+
+.serviceCard {
+    background: #242836;
+    padding: 1rem;
+    border: 1px solid #666;
+    border-radius: 3px;
+    margin: 1rem;
+    color: var(--txt-color-1);
+    transition: all .3s ease-in-out;
+}
+
+.serviceCard h3 {
+    font-weight: 400;
+    font-size: 1.25rem;
+    margin: 1rem 0;
+}
+
+.serviceCard p {
+    color: #269df5;
+    display: inline-block;
+    margin: 0.5rem 0 1rem;
+    font-size: 1rem !important;
+}

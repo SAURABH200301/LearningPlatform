@@ -1,0 +1,110 @@
+.main{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.sectionH2{
+    font-size: 2rem;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+.sectionP{
+    font-size: 1.125rem;
+    text-align: center;
+    line-height: 1.75;
+    padding: 0 1rem;
+    color: #666;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.techTool{
+    flex-wrap: wrap;
+    margin: 3rem 0;
+}
+
+.techTool, .ttCard{
+    display: flex;
+    justify-content: center;
+}
+.ttCard{
+    flex: 0 1 9.25rem;
+    align-items: center;
+    background: #ffffff4a;
+    color: #000;
+    border: 1px solid #fff;
+    padding: 0.5rem 0.25rem;
+    margin: 1rem 0.5rem;
+    box-shadow: 2px 14px 20px 6px rgba(224,230,235,.58);
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 768px){
+    .ttCard{
+        display: flex;
+        flex: 0 1 12.5rem;
+        align-items: center;
+        justify-content: center;
+        background: #ffffff4a;
+        color: #000;
+        border: 1px solid #fff;
+        padding: 0.5rem 1.5rem;
+        margin: 1rem;
+        box-shadow: 2px 14px 20px 6px rgba(224,230,235,.58);
+        border-radius: 3px;
+        transition: all .3s ease;
+    }    
+}
+
+@media screen and (min-width: 768px){
+    .ttCardImage img {
+        width: 2rem;
+    }
+}
+.ttCardImage img{
+    width: 1.5rem;
+}
+
+.ttCardTitle{
+    margin-left: 0.75rem;
+    font-size: 1.25rem;
+}
+@media screen and (min-width: 768px){
+    .ttCardTitle {
+        margin-left: 1rem;
+        font-size: 1.25rem;
+    }
+}
+.viewAll{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.btn{
+    background: white;
+    color: #ff5f08;
+    border: 1px solid #ff5f08;
+    font-weight: 700;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: white ;
+    background: #ff5f08;
+}
+
+.allStack{
+    display: inline-block;
+    text-align: center;
+    padding: 1rem 2rem;
+    border-radius: 3px;
+}
